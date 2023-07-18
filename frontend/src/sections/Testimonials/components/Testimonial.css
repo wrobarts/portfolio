@@ -1,0 +1,28 @@
+.author-information {
+    display: flex;
+}
+
+.author-avatar {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.author-name {
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.author-company {
+    margin: 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.testimonial-body-text {
+    font-weight: 300;
+    line-height: 1.8rem;
+}

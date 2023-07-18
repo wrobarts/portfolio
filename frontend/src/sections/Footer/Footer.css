@@ -1,0 +1,139 @@
+.footer-container {
+    background-color: var(--text-title);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
+}
+
+.footer-left {
+    width: 30vw;
+    margin-left: 10vw;
+    margin-top: 3rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.footer-title {
+    color: var(--text-home);
+    font-size: 2rem;
+}
+
+.footer-text {
+    color: white;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.6rem;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer-right-container-inner {
+    display: flex;
+    width: 40vw;
+    color: white;
+}
+
+.footer-item-container {
+    padding: 0 2rem;
+    margin-left: 1rem;
+}
+
+.footer-item-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-item-link-container {
+    margin-top: 1.4rem;
+}
+
+.footer-item-link {
+    text-decoration: none;
+    color: var(--text-home);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.footer-item-title:hover,
+.footer-item-link:hover {
+    color: #C4C4C4;
+}
+
+.footer-item-text {
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.6rem;
+}
+
+@media (max-width: 1366px) {
+    .footer-item-container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-left {
+        width: 40vw;
+        margin-left: 5vw;
+    }
+
+    .footer-right-container-inner {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-left {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .footer-right-container-inner {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .footer-left {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .footer-right-container-inner {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-right-container-inner {
+        flex-direction: column;
+        width: 60vw;
+    }
+    
+    .footer-item-container {
+        margin-left: 0;
+    }
+}

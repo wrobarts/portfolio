@@ -1,0 +1,24 @@
+:root {
+    --text-link-header: #333333;
+    --text-link-header-hover: #636363;
+    --text-home: #FFFFFF;
+    --text-title: #1A2238;
+    --text-subtitle: #222222;
+    --text-heading-inverse: #FFFFFF;
+    --text-main: #838383;
+    --text-secondary: #FFFFFF;
+    --text-link-secondary: #222222;
+    --text-link-secondary-hover: #4F4F4F;
+    --text-button-main: #1A2238;
+    --button-main: #FFFFFF;
+    --button-main-hover: #DEDEDE;
+    --text-button-secondary: #FFFFFF;
+    --button-secondary: #1A2238;
+    --button-secondary-hover: #303F68;
+    --background-main: #FFFFFF;
+    --background-secondary: #1A2238;
+    --background-secondary-accent: #263A70;
+    --card-background: #FFFFFF;
+    --list-text: #000000;
+    --title-text: #808080;
+}

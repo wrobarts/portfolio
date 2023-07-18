@@ -1,0 +1,39 @@
+.contact-sidebar-card {
+    margin-top: 2rem;
+}
+
+.contact-sidebar-input label {
+    display: none;
+}
+
+.contact-sidebar-input {
+    margin-top: 1rem;
+}
+
+.contact-sidebar-button-container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.contact-sidebar-button {
+    color: var(--text-button-secondary);
+    background-color: var(--button-secondary);
+    width: 100%;
+
+}
+
+.contact-sidebar-button:hover {
+    background-color: var(--button-secondary-hover);
+}
+
+@media (max-width: 1024px) {
+    .contact-sidebar-card {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .contact-sidebar-card {
+        margin-bottom: 2rem;
+    }
+}

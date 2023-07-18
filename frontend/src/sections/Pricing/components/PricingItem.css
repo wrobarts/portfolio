@@ -1,0 +1,107 @@
+.pricing-card {
+    border-radius: 10px;
+    position: relative;
+    padding: 3rem;
+}
+
+.pricing-tag {
+    position: absolute;
+    background-color: var(--text-title);
+    width: 6rem;
+    height: 6rem;
+    right: 3rem;
+    top: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+}
+
+.pricing-title {
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.pricing-info-list {
+    padding-left: 1rem;
+}
+
+.pricing-info-list li {
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.pricing-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-button {
+    border-radius: 10px;
+    background-color: var(--button-secondary);
+    color: var(--text-button-secondary);
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+}
+
+.pricing-button:hover {
+    background-color: var(--button-secondary-hover);
+}
+
+.pricing-button-inverse {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid var(--button-secondary);
+    color: var(--button-secondary);
+}
+
+.pricing-button-inverse:hover {
+    background-color: var(--button-secondary);
+    color: var(--text-button-secondary);
+}
+
+@media (max-width: 1366px) {
+    .pricing-title {
+        margin-top: 2rem;
+    }
+
+    .pricing-button {
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pricing-card {
+        padding: 2rem;
+    }
+
+    .pricing-title {
+        font-size: 1.6rem;
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .pricing-card {
+        padding: 3rem;
+    }
+
+    .pricing-title {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .pricing-button {
+        padding: 1rem 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .pricing-tag {
+        right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .pricing-button {
+        padding: 1rem 2rem;
+    }
+}

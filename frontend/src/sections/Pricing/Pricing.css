@@ -1,0 +1,28 @@
+.pricing-section {
+    background-color: var(--background-secondary);
+    overflow: hidden;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    align-items: start;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 1024px) {
+    .pricing-container {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 812px) {
+    .pricing-container {
+        grid-template-columns: 1fr;
+    }
+}

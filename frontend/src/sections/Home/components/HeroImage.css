@@ -1,0 +1,25 @@
+.hero-image {
+    background-image: url("../../../images/hero_image.jpeg");
+    width: 100vw;
+    height: calc(100vw * (2813 / 5000));
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media (max-width: 812px) {
+    .hero-image {
+        background-position: -20vw 0;
+        background-size: 140vw;
+        height: calc(140vw * (2813 / 5000));
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-image {
+        background-position: -40vw 0;
+        background-size: 180vw;
+        height: calc(180vw * (2813 / 5000));
+    }
+}

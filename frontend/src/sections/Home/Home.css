@@ -1,0 +1,145 @@
+.home-title-section {
+    margin-top: 16rem;
+}
+
+.home-title {
+    color: var(--text-home);
+    text-align: center;
+    margin: 0;
+    font-size: 6rem;
+    line-height: 8rem;
+    font-weight: 500;
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+.home-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+@media (max-width: 1600px) {
+    .home-title-section {
+        margin-top: 14rem;
+    }
+
+    .home-title {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .home-button-container {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 1260px) {
+    .home-title-section {
+        margin-top: 12rem;
+    }
+
+    .home-title {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .home-button-container {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home-title-section {
+        margin-top: 10rem;
+    }
+
+    .home-title {
+        font-size: 3.5rem;
+        line-height: 5.5rem;
+    }
+
+    .home-button-container {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 890px) {
+    .home-title-section {
+        margin-top: 9rem;
+    }
+
+    .home-title {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .home-button-container {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 812px) {
+    .home-title-section {
+        margin-top: 12rem;
+    }
+
+    .home-title {
+        width: calc(100vw - 2rem);
+        margin-left: 1rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .home-title-section {
+        margin-top: 6rem;
+    }
+
+    .home-title {
+        text-align: left;
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .home-button-container {
+        justify-content: left;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-title {
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+
+    .home-button-container {
+        justify-content: left;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .home-title {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .home-button-container {
+        justify-content: left;
+        margin: 1rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .home-title {
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+    }
+
+    .home-button-container {
+        justify-content: left;
+        margin: 1rem;
+    }
+}
